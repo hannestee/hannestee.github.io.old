@@ -18,15 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hannes Tikkanen
+title: Web Designer - Hannes Tikkanen
 email: hannes.tikkanen@protonmail.com
 description: Hannes Tikkanen is a web designer/developer living in Helsinki metropolitan area.
 baseurl: "/hannestee.github.io"
 url: "https://hannestee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_path: https://twitter.com/
+twitter_path: https://twitter.com/hannest7
 github_path: https://github.com/hannestee/
 linkedin_path: https://linkedin.com/
+instagram_path: https://instagram.com/hannesteex/
 
 # Build settings
 permalink: pretty
