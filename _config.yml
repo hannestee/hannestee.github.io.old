@@ -29,6 +29,7 @@ github_path: https://github.com/hannestee/
 linkedin_path: https://linkedin.com/
 instagram_path: https://instagram.com/hannesteex/
 
+pathToBlogImgBin: /assets/img/blog/
 # Build settings
 permalink: pretty
 plugins:
