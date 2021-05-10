@@ -68,7 +68,7 @@ hr {
 }
 
 .profile {
-  width: 30;
+  width: 75%;
   margin: auto;
 }
 
@@ -92,7 +92,6 @@ hr {
 
 .mountain {
   margin-top: 200px;
-  height: 700px;
 }
 
 .skill-row{
@@ -173,4 +172,10 @@ hr {
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
+}
+
+@media only screen and (max-width: 1210px) {
+  .mountain {
+    width: 50%;
+  }
 }
