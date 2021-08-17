@@ -94,6 +94,29 @@ hr {
   margin-top: 200px;
 }
 
+.projects {
+  width: 500px;
+  margin: auto;
+}
+
+.projects ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.projects a:hover {
+  color: #212a52;
+}
+
+.projects li {
+  display: inline-block;
+  width: 350px;
+}
+
+.projects span {
+  display: inline-block;
+}
+
 .skill-row{
   width: 50%;
   margin: 100px auto 300px auto;
