@@ -1,0 +1,42 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    background-color: #333385;
+    color: #dce2ff;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Orbitron";
+    font-weight: 400;
+}
+
+.main {
+    margin: 15% auto auto;
+    animation: fadeIn linear 3s;
+}
+
+.fade {
+    animation: fadeIn linear 3s;
+}
+
+.round-time-bar div {
+    height: 5px;
+    width: 100px;
+    margin: 2rem auto auto;
+    background: linear-gradient(to bottom, #c9c0ff, #eceaff);
+    animation: roundtime 60s linear forwards;
+    transform-origin: left center;
+    border-radius: 8px;
+}
+
+@keyframes roundtime {
+    to {
+      transform: scaleX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
