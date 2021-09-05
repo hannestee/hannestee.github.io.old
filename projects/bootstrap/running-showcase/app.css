@@ -1,11 +1,8 @@
 body {
     background-color: #80ED99;
     font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
 }
-
-/* #mainNavbar {
-    margin-left: 1rem;
-} */
 
 .intro h2 {
     color: #22577A;
@@ -40,6 +37,7 @@ body {
 
 #mainNavbar .navbar-brand {
     color: #22577A;
+    margin-left: 2rem;
 }
 
 #heading-group span {
@@ -51,9 +49,18 @@ body {
     font-size: 3rem;
 }
 
+#running-logo {
+    width: 8%;
+    opacity: 0.75;
+}
+
+.footer {
+    background-color: #57CC99; 
+}
+
 .navbar.scrolled {
-    background: rgb(222,192,222);
-    transition: background 500ms;
+    background-color: #57CC99;
+    transition: background-color 500ms;
 }
 
 @media (max-width: 1200px) {
